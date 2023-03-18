@@ -1884,7 +1884,10 @@ body {
 }
 
 .bookingSlider {
-  max-width: 75vw !important;
+  max-width: 77vw !important;
+  @media(max-width:600px) {
+    max-width: 90vw !important;
+  }
 }
 
 .foldSidebar {
