@@ -180,12 +180,12 @@
             </div>
             <div class="col-md-12 mb-4">
                 <div class="row">
-                    <div class="title">Newest Booking</div>
-                    <p class=" subtext">12 Booking</p>
+                    <div class="newBooking">Newest Booking</div>
+                    <p class="subtextBooking">12 Booking</p>
                 </div>
                 <div class="row">
                     <swiper
-                        :breakpoints="{ 500: { slidesPerView: 1 }, 600: { slidesPerView: 1 }, 960: { slidesPerView: 2 }, 1024: { slidesPerView: 4, } }"
+                        :breakpoints="{ 300: { slidesPerView: 1 }, 400: { slidesPerView: 1 }, 500: { slidesPerView: 1 }, 600: { slidesPerView: 1 }, 960: { slidesPerView: 2 }, 1024: { slidesPerView: 4, } }"
                         class="bookingSlider" :slides-per-view="4" :space-between="25" @swiper="onSwiper"
                         @slideChange="onSlideChange">
                         <swiper-slide v-for="(item, idx) in newestBooking" :key="idx">
