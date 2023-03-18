@@ -217,7 +217,7 @@
                     </swiper>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 mb-5">
                 <div class="box-theme px-0">
                     <div class="title px-4 pb-4 pt-2"> Booking Details </div>
                     <div class="table-responsive">
