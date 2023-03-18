@@ -45,7 +45,7 @@ $txt: #243a34;
 }
 
 .bg-theme-light {
-  background-color: rgb(200, 250, 205);
+  background-color: rgb(200, 250, 205)!important;
   ;
 }
 
@@ -1671,6 +1671,7 @@ background: #fff;
 }
 
 .slideContent {
+  cursor: grab;
   .topper {
     display: flex;
 
@@ -1829,7 +1830,7 @@ background: #fff;
   background: #F4F6F8;
   padding: 10px;
   border-radius: 16px;
-
+  cursor: grab;
   .topper {
     padding: 15px;
   }
